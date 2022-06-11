@@ -25,9 +25,10 @@
     <title>Beach of AR</title>
   </head>
   <body>
+    <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
       <div class="container">
-        <a class="navbar-brand ">Beach of AR</a>
+        <a class="navbar-brand h1">Beach of AR</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,56 +40,191 @@
 
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item h4 px-2">
               <a href="#about" class="nav-link">About</a>
             </li>
-            <li class="nav-item">
-              <a href="workshop.html" target="__blank" class="nav-link"
-                >Filters</a
-              >
+            <li class="nav-item h4 px-2">
+              <a href="#filters" target="__blank" class="nav-link">Filters</a>
             </li>
-            
-            <li class="nav-item">
-              <a href="team.html" target="__blank" class="nav-link">Team</a>
+
+            <li class="nav-item h4 px-2">
+              <a href="#team" target="__blank" class="nav-link">Team</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="bg-dark text-light p-5">
-        <div class="container p-5">
-          <div class="d-sm-flex py-5 align-items-center justify-content-between">
-            <div>
-              <h1 style="font-weight: 700;">Welcome to <br>
-                <span style="
+    <!-- About -->
+    <section class="bg-dark text-light p-3">
+      <div class="container p-5">
+        <div class="d-sm-flex py-5 align-items-center justify-content-between">
+          <div>
+            <h1 style="font-weight: 700">
+              Welcome to <br />
+              <span
+                style="
                   font-size: 78px;
-    
-                  background: linear-gradient(140deg,#037ADE 12.09%,#03E5B7 42.58%,#7FCEC5 84.96%);
-    
+
+                  background: linear-gradient(
+                    140deg,
+                    #037ade 12.09%,
+                    #03e5b7 42.58%,
+                    #7fcec5 84.96%
+                  );
+
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
-                /* color: #ec3750; font-size: larger; */
-                ">Beach of AR</span>
-              </h1>
-              <p class="lead my-5" style="font-weight: 500;">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatem suscipit, sint sunt fugit minus illum? Vero, iusto deleniti hic non eius molestias possimus libero, recusandae, placeat unde reprehenderit eum!
-              
-              </p>
-              <button class="btn-primary btn-lg px-4"
-                style="background-image: linear-gradient(#037ADE, #03E5B7); border: none; border-radius: 20px; color: black; font-weight: bold;"><a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfUl-mlbPI_Nsz-EiuNZI4nMuqT9b4aGnr1sxZXqa4unj-mEQ/viewform"
-                  target="__blank">Try out the filters now ✨</a></button>
-    
-            </div>
-            <img class="img-fluid w-50 d-none d-sm-block" src="img/AR-VR.png" alt="community-img">
+                  /* color: #ec3750; font-size: larger; */
+                "
+                >Beach of AR</span
+              >
+            </h1>
+            <p class="lead my-5" style="font-weight: 500">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Laboriosam voluptatem suscipit, sint sunt fugit minus illum? Vero,
+              iusto deleniti hic non eius molestias possimus libero, recusandae,
+              placeat unde reprehenderit eum!
+            </p>
+            <button
+              class="btn-primary btn-lg px-4"
+              style="
+                background-image: linear-gradient(#037ade, #03e5b7);
+                border: none;
+                border-radius: 20px;
+                color: black;
+                font-weight: bold;
+              "
+            >
+              <a href="#filters" target="__blank">Try out the filters now ✨</a>
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/AR-VR.png"
+            alt="community-img"
+          />
+        </div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#0099ff"
+            fill-opacity="1"
+            d="M0,128L48,128C96,128,192,128,288,160C384,192,480,256,576,245.3C672,235,768,149,864,112C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="wave-container"></div>
+    </section>
+
+    <!-- Filters  -->
+
+    <h1  class="text-center my-5" style="font-weight: 700">
+      <span
+        style=" text-align: center;
+          font-size: 78px;
+
+          background: linear-gradient(
+            140deg,
+            #037ade 12.09%,
+            #03e5b7 42.58%,
+            #7fcec5 84.96%
+          );
+
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          /* color: #ec3750; font-size: larger; */
+        "
+        >Filters</span
+      >
+    </h1>
+
+    <div class="row my-5 mx-5">
+      <div class="col-lg-4 my-4">
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary my-2">Instagram</a>
+          <a href="#" class="btn btn-primary">Facebook</a>
           </div>
         </div>
-      </section>
+      </div>
 
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+      <div class="col-lg-4">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary my-2">Instagram</a>
+          <a href="#" class="btn btn-primary">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary my-2">Instagram</a>
+          <a href="#" class="btn btn-primary">Facebook</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-lg-4">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary my-2">Instagram</a>
+          <a href="#" class="btn btn-primary">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-lg-4">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary my-2">Instagram</a>
+          <a href="#" class="btn btn-primary">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
