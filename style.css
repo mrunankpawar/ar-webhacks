@@ -48,3 +48,79 @@ body::before {
   font-size: 50px; 
   padding-left: 15px;
 }
+
+#team-member:hover{
+  rotate: 180deg;
+}
+
+body 
+{
+  font-family: sans-serif;
+}
+.image-hover-text-container 
+{
+  position: relative;
+  display: inline-block;
+
+  width: auto;
+  height: auto;
+  transition: all 0.2s linear;
+}
+
+.image-hover-image 
+{
+ display: block;
+}
+/* Make the image round */
+.image-hover-image img
+{
+  border-radius: 50%;
+
+  height: 400px;
+}
+
+
+
+.image-hover-text 
+{
+  position: absolute;
+  top: 0;
+  width: 100%;  
+  height: 100%;
+  margin: 0 auto;
+  opacity: 0;
+  cursor: default;
+  transition: opacity 0.2s linear;
+}
+.image-hover-text:hover 
+{
+  opacity: 1;
+}
+
+
+.image-hover-text-bubble 
+{
+  position: relative;
+  box-sizing: border-box;
+  top: 0; left: 0; right: 100%;
+  height: 400px;
+  text-align: center;
+  /* background: rgba(218, 211, 211, 0.9); */
+  background: rgba(246, 187, 187, 0.9);
+  border: 1px solid #848484;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 25% 8px 5px 8px;
+  overflow: hidden;
+  font-size: 17px;
+  text-align: center;
+  word-wrap: break-word;
+  color: #ec3750;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-hover-text .image-hover-text-title
+{
+  font-size: 55px;
+  display: block;
+}
